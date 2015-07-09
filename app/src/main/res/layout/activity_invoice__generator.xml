@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#cccccc"
+    tools:context="com.eps.udl.bitcoincheckout.Invoice_Generator" android:orientation="vertical"
+    android:layout_weight="100">
+
+    <TableLayout android:id="@+id/tableId" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="80"
+        android:background="#000000">
+        <TableRow android:layout_weight="25">
+            <Button android:id="@+id/btn_1" android:text="1" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button android:id="@+id/btn_2" android:text="2" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button
+                android:id="@+id/btn_3" android:text="3" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:layout_weight="25">
+            <Button android:id="@+id/btn_4" android:text="4" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button android:id="@+id/btn_5" android:text="5" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button
+                android:id="@+id/btn_6" android:text="6" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:layout_weight="25">
+            <Button android:id="@+id/btn_7" android:text="7" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button android:id="@+id/btn_8" android:text="8" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button
+                android:id="@+id/btn_9" android:text="9" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+        </TableRow>
+        <TableRow android:layout_weight="25">
+            <Button android:id="@+id/btn_0" android:text="0" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button android:id="@+id/btn_Erase" android:text="C" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+            <Button
+                android:id="@+id/btn_Comma" android:text="," android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView android:id="@+id/quantity_display"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="10" android:background="#cccccc" android:gravity="center|end"
+        android:textSize="20sp" android:textColor="#000000"/>
+
+    <Button android:id="@+id/generate_invoice" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_weight="5"
+        android:text="@string/invoice_generate" android:gravity="center"
+        android:onClick="generateInvoice"/>
+
+</LinearLayout>

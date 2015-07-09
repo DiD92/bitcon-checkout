@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="error_red">#ffed1828</color>
+    <color name="bitpay_background">#17223C</color>
+    <color name="bitpay_button">#426D9E</color>
+    <color name="bitpay_white_background">#FFFFFF</color>
+    <color name="bitpay_gray">#DBDBDB</color>
+    <color name="bitpay_dark_gray">#bababa</color>
+    <color name="yellow_text">#ffe5ce14</color>
+
+</resources>

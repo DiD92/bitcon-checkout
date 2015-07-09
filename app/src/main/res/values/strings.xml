@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BitCoin Checkout</string>
+    <string name="menu_text">Bitcoin\nCheckout</string>
+    <string name="token_text">Input pairing token:</string>
+    <string name="pair_text">Pair device</string>
+    <string name="pair_succesful">Device\npaired!</string>
+    <string name="invoice_text">Create Invoice</string>
+    <string name="history_text">View History</string>
+    <string name="invoice_generate">Generate invoice code</string>
+    <string name="bitpay_app_name">BitPay SDK</string>
+    <string name="bitpay_title_activity_invoice">Invoice Details</string>
+    <string name="bitpay_waiting">Launch Wallet</string>
+
+    <string name="title_activity_invoice__generator">Invoice_Generator</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="history_spinner_text">Check invoices since:</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="date_options">
+        <item>Day</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>

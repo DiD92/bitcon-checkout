@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#43b137" android:gravity="center"
+    android:orientation="vertical" android:weightSum="100">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="0dp"
+        android:layout_weight="60" android:gravity="center"
+        android:text="@string/pair_succesful" android:textColor="#ffe5ce14"
+        android:textSize="70sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="40" android:gravity="center">
+    <Button android:id="@+id/invoce_button" android:layout_width="200dp"
+        android:layout_height="wrap_content" android:text="@string/invoice_text"
+        android:layout_marginBottom="20dp" android:onClick="createNewInvoice"/>
+
+    <Button android:id="@+id/history_button" android:layout_width="200dp"
+        android:layout_height="wrap_content" android:text="@string/history_text"
+        android:onClick="viewInvocesHistory"/>
+    </LinearLayout>
+
+</LinearLayout>
